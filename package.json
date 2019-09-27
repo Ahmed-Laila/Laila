@@ -1,0 +1,20 @@
+{
+  "name": "laila",
+  "version": "1.0.0",
+  "description": "Azubiprojekt",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Laila/Laila.git"
+  },
+  "author": "Ahmed Laila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Laila/Laila/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Laila/Laila#readme"
+}
