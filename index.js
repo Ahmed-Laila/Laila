@@ -1,2 +1,5 @@
-console.log("hello man!");
-console.log("test");
+function functionName() {
+  const input = document.getElementById(`input`).value;
+  const output = document.getElementById(`output`).value;
+document.getElementById('output').value = +input + +output;
+}
