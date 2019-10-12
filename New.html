@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+  </head>
+  <body bgcolor= "#000000">
+    <form name= "calculator" >
+      <input type="button" value="1" onclick="document.calculator.ahd.value+=`1`">
+      <input type="button" value="2" onclick="document.calculator.ahd.value+=`2`">
+      <input type="button" value="3" onclick="document.calculator.ahd.value+=`3`">
+      <input type="button" value="+" onclick="document.calculator.ahd.value+=`+`"><br>
+
+      <input type="button" value="4" onclick="document.calculator.ahd.value+=`4`">
+      <input type="button" value="5" onclick="document.calculator.ahd.value+=`5`">
+      <input type="button" value="6" onclick="document.calculator.ahd.value+=`6`">
+      <input type="button" value="- " onclick="document.calculator.ahd.value+=`- `"><br>
+
+      <input type="button" value="7" onclick="document.calculator.ahd.value+=`7`">
+      <input type="button" value="8" onclick="document.calculator.ahd.value+=`8`">
+      <input type="button" value="9" onclick="document.calculator.ahd.value+=`9`">
+      <input type="button" value="*" onclick="document.calculator.ahd.value+=`*`"><br>
+
+      <input type="button" value="0" onclick="document.calculator.ahd.value+=`0`">
+      <input type="button" value="/" onclick="document.calculator.ahd.value+=`/`">
+
+
+      <input type="reset" value="AC">
+      <input type="button" value="=" onclick="document.calculator.ahd.value=eval(document.calculator.ahd.value)">
+      <br>  <input type="text" name="ahd" value="">
+
+    </form>
+  </body>
+</html>
